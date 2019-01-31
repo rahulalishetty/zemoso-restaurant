@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZeMoSo Restaurnat</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="app">
+		<div class="tables-div">
+			<p class="header">Tables</p>
+			<div class="search-bar center-search-bar">
+				<input class="table-input" type="text" placeholder="Search table" onkeyup="searchTable()" id="search-table"/>
+			</div>
+			<div class="table-list" id="table-list">
+				
+			</div>
+		</div>
+		<div class="menu-div">
+			<p class="header">Menu</p>
+			<div class="search-bar">
+				<input class="menu-input" type="text" id="search-menu" placeholder="Search menu...by course, by food" onkeyup="searchMenu()"/>
+			</div>
+			<div class="menu-list" id="menu-list">
+
+			</div>
+		</div>
+	</div>
+	<div class="table-form-popup" id="tableForm">
+        <div class="form-content">
+        	<div class="form-header">
+        		<span class="header-details" id="header-details"></span>
+            	<span class="close" >&times</span>
+            </div>
+
+            <div class="tabcontent" >
+                 <div class="form-div" >
+                    <table class="order-table" id="order-table">
+                    	<thead>
+							<tr class="table-header">
+		                    	<th class="sno">S.No</th>
+		                    	<th class="item">Item</th>
+		                    	<th class="price">Price</th>
+		                    	<th class="numberOfServings">numberOfServings</th>
+		                    	<th class="delete"></th>
+		                    </tr>
+	                    </thead>
+                	</table>
+                	<div class="close-session" id="close-session">
+                		
+                	</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
