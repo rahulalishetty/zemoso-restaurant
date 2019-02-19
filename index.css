@@ -23,6 +23,9 @@ body{
 	width: 20%;
 	top: 0;
 	float: left;
+	position: fixed;
+	left:0;
+	top:0;
 }
 
 .menu-div{
@@ -30,7 +33,7 @@ body{
 	height: 100%;
 	width: 79%;
 	top:0;
-	float: left;
+	float: right;
 	border-left: 4px solid black;
 }
 
